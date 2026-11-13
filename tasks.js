@@ -18,7 +18,7 @@ function addTask(tasks, title) {
   if (clean === "") {
     return tasks;
   }
-  tasks.push({ title: clean, done: false });
+  tasks.push({ title: clean, done: false });;
   return tasks;
 }
 
